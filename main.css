@@ -1,0 +1,342 @@
+/*--- main & media query---*/
+body {
+  background-color: whitesmoke;
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  letter-spacing: 0.3px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+  max-width: 1200px;
+}
+
+@media (max-width: 991px) {
+  .row {
+    max-width: 800px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .box-nav {
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 800px) {
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.z-depth-1 {
+  background-color: white;
+  border-radius: 20px;
+}
+
+
+
+
+/*--- header ---*/
+
+.header-text {
+  font-size: 0.7rem;
+  color: #0b519a;
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+
+/*--- nav 1. ---*/
+
+.navbar {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: none !important;
+}
+
+
+@media (max-width: 400px) {
+  .nav-img {
+    height: 30px;
+  }
+}
+
+.box-nav {
+  background: url('https://euronics.hu/_ui/responsive/theme-euronics/pics/csillag.png') !important;
+  background-color: #0b519a !important;
+  background-size: 300px 300px !important;
+  background-repeat: no-repeat !important;
+}
+
+
+.nav-1 a {
+  font-size: 15px !important;
+}
+
+.navbar {
+  box-shadow: none;
+}
+
+.nav-searchmobile {
+  border-radius: 20px;
+}
+
+.btn {
+  border-radius: 20px;
+}
+
+.btn-2 {
+  color: white;
+  border: 0.5px solid white;
+}
+
+/*--- nav 2. ---*/
+
+.navbar {
+  border: none !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+.nav-link {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.navbar-brand {
+  font-size: 13px !important;
+  font-weight: 600;
+  margin-top: 0.14rem;
+}
+
+.fa-chevron-circle-down {
+  color: white;
+}
+
+
+/*--- 1. carousel 2 db kártyával ---*/
+
+.top2card-p {
+  font-size: 0.8rem !important;
+  font-weight: 900 !important;
+  letter-spacing: 1px !important;
+  color: #0b519a !important;
+}
+
+.carousel-control-prev {
+  background: white;
+  border-radius: 50% !important;
+  height: 40px;
+  width: 40px;
+  top: 45%;
+  left: 1%;
+  opacity: .8;
+}
+
+.carousel-control-next {
+  background: white;
+  border-radius: 50% !important;
+  height: 40px;
+  width: 40px;
+  top: 45%;
+  right: 1%;
+  opacity: .8;
+}
+
+.carousel-indicators li {
+  background-color: white !important;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: #0b519a !important;
+  opacity: 1;
+}
+
+/*--- 1. carousel alatti 5 doboz ---*/
+
+.caralatti-p1 {
+  font-size: 0.8rem;
+  font-weight: 900
+}
+
+.caralatti-p2 {
+  font-size: 0.8rem;
+}
+
+/*--- 11 db kártya ---*/
+
+@media (max-width: 420px) {
+  .card-11db {
+    display: none;
+  }
+}
+
+.card11-p {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/*--- 11 db kártya mobil ---*/
+
+@media (min-width: 420px) {
+  .card11-mobil {
+    display: none;
+  }
+}
+
+.card11-mobil i {
+  color: white;
+}
+
+.btn-11card-mobile {
+  border-radius: 50%;
+  padding: 15px;
+  opacity: .8;
+}
+
+.card11-mobile-text {
+  font-size: 0.7rem;
+  font-weight: 900;
+  margin-top: 3px;
+}
+
+/*--- multi item carousel ---*/
+
+.multi-1prevbtn {
+  position: absolute;
+  top: 40%;
+  left: 5px;
+  display: block !important;
+  background: none !important;
+  color: grey;
+  opacity: .7;
+}
+
+.multi-1nextbtn {
+  position: absolute;
+  top: 40%;
+  right: 5px;
+  display: block !important;
+  background: none !important;
+  color: grey;
+  opacity: .7;
+}
+
+
+.card {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#multi-1 img {
+
+  height: 150px;
+  width: 190px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.buzi-img {
+  width: 110px !important;
+}
+
+.card-text {
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 0px;
+}
+
+.ujar {
+  color: #0b519a !important;
+  font-size: 1.3rem !important;
+  font-weight: 900 !important;
+  margin-top: 0.8rem;
+}
+
+.multiitem-btn {
+  background: yellow;
+  box-shadow: none !important;
+  border: 1px solid yellow;
+  letter-spacing: 0.1px;
+  font-weight: 900 !important;
+}
+
+.multiitem-btn:hover {
+  background: white;
+  border: 1px solid yellow;
+  box-shadow: none !important;
+}
+
+
+
+/*-- 3 sor   5 db carousel és egy kép--*/
+
+/*-- 2. multi carousel márka nevek --*/
+
+.multi-2prevbtn {
+  position: absolute;
+  top: 30%;
+  left: 0px;
+  display: block !important;
+  background: none !important;
+  color: grey;
+  opacity: .7;
+}
+
+.multi-2nextbtn {
+  position: absolute;
+  top: 30%;
+  right: 0px;
+  display: block !important;
+  background: none !important;
+  color: grey;
+  opacity: .7;
+}
+
+#multi-2 img {
+  height: 40px;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+}
+
+/*--- 1. footer info ---*/
+
+.footerinfo1-text {
+  font-size: 10px;
+  color: white;
+}
+
+.footerinfo1-text:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.box {
+  background: url('https://euronics.hu/_ui/responsive/theme-euronics/pics/csillag.png') !important;
+  background-color: #0b519a !important;
+  background-size: 500px 500px !important;
+  background-repeat: repeat-x !important;
+}
+
+/*--- footer kisbetüs ---*/
+
+.footer-kisbetus {
+  font-size: 0.7rem;
+  font-weight: 900;
+}
