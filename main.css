@@ -206,6 +206,8 @@ a {
   border-radius: 50%;
   padding: 15px;
   opacity: .8;
+  width: 55px;
+  height: 55px;
 }
 
 .card11-mobile-text {
