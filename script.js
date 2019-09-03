@@ -82,6 +82,9 @@ $('.owl-carousel').owlCarousel({
   responsive: {
     0: {
       items: 4
+    },
+    350: {
+      items: 5
     }
   }
 })
